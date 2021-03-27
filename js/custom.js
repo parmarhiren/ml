@@ -1,4 +1,5 @@
 
+
   $(function () {
 
     // MENU
@@ -27,44 +28,63 @@
   });
 
   $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:20,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:3,
-                nav:false
-            },
-            1000:{
-                items:5,
-                nav:false,
-                loop:false
-            }
-        }
+    $('.owl-carousel-hero').owlCarousel({
+         // Most important owl features
+    items : 5,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    singleItem : false,
+         //Pagination
+         pagination : false,
+         paginationNumbers: false,
+         //Mouse Events
+    mouseDrag : false,
+    touchDrag : false,
+    navigation : false,
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+
     })
-    $('.owl-carousel-full-page').owlCarousel({
-        loop:true,
-        margin:20,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1,
-                nav:true
-            },
-            600:{
-                items:3,
-                nav:false
-            },
-            1000:{
-                items:5,
-                nav:false,
-                loop:false
-            }
-        }
+    $('.owl-carousel-home').owlCarousel({
+          items : 4,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [980,3],
+          itemsTablet: [768,2],
+          itemsTabletSmall: false,
+          itemsMobile : [479,1],
+          singleItem : false,
+          //Pagination
+          pagination : false,
+          paginationNumbers: false,
+          autoPlay : true,
+           //Mouse Events
+          mouseDrag : true,
+          touchDrag : true,
+          navigation : false,
+          // Responsive 
+          responsive: true,
+          responsiveRefreshRate : 200,
+          responsiveBaseWidth: window,
+          transitionStyle:"fade"
+    })
+    $('#owl-carousel-marketing').owlCarousel({
+        navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+         //Pagination,
+         pagination : true,
+         paginationNumbers: true,
+         navigation:false,
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+
     })
   });
