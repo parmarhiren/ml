@@ -250,7 +250,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   #owl-carousel-marketing .owl-controls{
     position: absolute;
     right:0;
-    top: -10px;
+    top: -20px;
   }
   .hero-text{
     font-size: 3rem;
@@ -259,7 +259,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
     text-align:center;
     position: absolute;
     margin-left: auto;
-    font-family: var(--base-font-family)
+    font-family: var(--base-font-family);
+    margin-bottom: 2rem;
   }
   .line{
     background: var(--dark-color);
@@ -722,7 +723,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
  .grid-container-1 {
     display: grid;
-    width:90%;
+    width:100%;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
  }
@@ -739,6 +740,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
     padding: 20px 0px;
     font-size: 30px;
     text-align: center;
+}
+.filter-movies{
+  border-radius: 10px;
 }
   /*---------------------------------------
      CONTACT              
@@ -946,7 +950,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
   margin-bottom: 5px;
 }
 
-
+.search-box-div{
+  margin-left: auto;
+}
 
   /*---------------------------------------
      RESPONSIVE STYLES              

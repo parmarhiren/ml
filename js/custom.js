@@ -28,6 +28,13 @@
   });
 
   $(document).ready(function(){
+    $("#filter-movies").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#owl-carousel-marketing .grid-item").filter(function() {
+        $(this).toggle($(this).attr("data-mname").toLowerCase().indexOf(value) > -1)
+      });
+    });
+
     $('.owl-carousel-hero').owlCarousel({
          // Most important owl features
     items : 5,
