@@ -30,6 +30,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-weight: bold;
       font-style: normal;
   }
+  .content-desktop {display: block;}
+  .content-mobile {display: none;}
 
   :root {
     --bg-orange-color:      #f0874C;
@@ -136,6 +138,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
   .img1{
     width: 80px;
+    margin-left: 3rem;
   }
 
   .overlay{
@@ -198,8 +201,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
   .down-arrow{
-    width:25px;
-    height:25px;
+    width:20px;
+    height:20px;
     align-self: center;
   }
   .up-arrow{
@@ -249,7 +252,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
   #owl-carousel-marketing .owl-controls{
     position: absolute;
-    right:0;
+    right:15px;
     top: -20px;
   }
   .hero-text{
@@ -363,10 +366,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width:300px;
       position: absolute;
       right: 0;
-    }
-    .home{
-        width:250px;
-        height:350px;
     }
     .trailer-img{
         margin-top:20px;
@@ -710,13 +709,23 @@ https://www.tooplate.com/view/2119-gymso-fitness
     padding: 10px;
  }
   .grid-img{
-      width: 250px;
+    width: 250px;
     height: 350px;    
     border: 1px solid #fff;
-   }
+  }
+   .grid-img.home{
+    width:300px;
+    height:400px;
+    border: 1px solid #fff;
+
+  }
   .dot-margin{
-    margin-left:-30px !important;
-    }
+    margin-left:-40px !important;
+  }
+  .solid-circle{
+    position: absolute;
+    top: -4rem;
+  }
 
   /*---------------------------------------
      poster-design              
@@ -953,6 +962,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
 .search-box-div{
   margin-left: auto;
 }
+.quick-contact{
+  color: #fff;
+  font-size: 13px;
+}
 
   /*---------------------------------------
      RESPONSIVE STYLES              
@@ -986,8 +999,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
       margin-top: 22px;
     }
 
-    .navbar-collapse,
-    .site-footer {
+    .navbar-collapse/*,
+    .site-footer*/ {
       text-align: center;
     }
 
@@ -1025,6 +1038,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
        }
     }
   @media screen and (max-width: 768px) {
+    .content-desktop {display: none;}
+    .content-mobile {display: block;}
     .small-line {
         display:none;
     }
@@ -1101,6 +1116,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
   
 
 @media screen and (max-width: 600px) {
+  .mobile-hero-img{
+    width: 90vw;
+    opacity: 0.4;
+  }
   .column {
     -ms-flex: 100%;
     flex: 100%;
@@ -1163,6 +1182,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
      .img1{
         width:60px;
+        margin-left: inherit;
      }
      .line{
     background: var(--dark-color);
