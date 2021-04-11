@@ -80,18 +80,24 @@
           transitionStyle:"fade"
     })
     $('#owl-carousel-marketing').owlCarousel({
-        navigation : true, // Show next and prev buttons
+      items : 1,
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [980,1],
+      itemsTablet: [768,1],
+      itemsTabletSmall: false,
+      itemsMobile : [479,1],
+      singleItem : true,
+      navigation : true, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
-      singleItem:true,
-         //Pagination,
-         pagination : true,
-         paginationNumbers: true,
-         navigation:false,
-    // Responsive 
-    responsive: true,
-    responsiveRefreshRate : 200,
-    responsiveBaseWidth: window,
+      //Pagination,
+      pagination : true,
+      paginationNumbers: true,
+      navigation:false,
+      // Responsive 
+      responsive: true,
+      responsiveRefreshRate : 200,
+      responsiveBaseWidth: window,
 
     })
   });
