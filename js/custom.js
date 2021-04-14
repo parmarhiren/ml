@@ -81,11 +81,11 @@
     })
     $('#owl-carousel-marketing').owlCarousel({
       items : 1,
-      itemsDesktop : [1199,1],
+      itemsDesktop : [1200,1],
       itemsDesktopSmall : [980,1],
       itemsTablet: [768,1],
       itemsTabletSmall: false,
-      itemsMobile : [479,1],
+      itemsMobile : [479,3],
       singleItem : true,
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
