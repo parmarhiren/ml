@@ -992,6 +992,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
     width:-webkit-calc(100% - 2px);
     width:calc(100% - 2px);
 }
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+  background: none;
+  font-weight: bold;
+}
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
