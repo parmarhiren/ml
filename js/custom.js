@@ -98,6 +98,8 @@
       responsive: true,
       responsiveRefreshRate : 200,
       responsiveBaseWidth: window,
+      lazyLoad : true,
 
-    })
+    });
+
   });

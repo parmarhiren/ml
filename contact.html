@@ -90,7 +90,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                         <p class="nav-link line-hide">|</p>
                     </li>
                     <li class="nav-item">
-                        <a href="film-marketing.html" class="nav-link smoothScroll">MARKETING</a>
+                        <a href="film-marketing.php" class="nav-link smoothScroll">MARKETING</a>
                     </li>
                     <li class="nav-item">
                         <p class="nav-link line-hide">|</p>
@@ -167,7 +167,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     </section>
     <!-- Contact Form-->
 		<div class="about" >
-			<form method="post" name="contact-form"   action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit = "return(validateemail());">
+			<form method="post" name="contact-form"   action="email.php" onsubmit = "return(validateemail());">
                 <h3 class="form-head">TELL US YOUR REQUIREMENT</h3>
                <div class="just">
                     <div class=" col-md-10 col-12 row" style="justify-content:center; margin-left:0px; padding-right:0px;">
@@ -181,10 +181,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
                         </div>
                         <div class=" col-md-5 col-12">
                             <div class="form-group">
-                                <input type="text" name="txtPhone" class="form-control input-1" style="background-color:#000000 ; color:#ffffff; border: 2px solid #ffffff;" placeholder="Enter Designation *" value="" />
+                                <input type="text" name="txtDesignation" class="form-control input-1" style="background-color:#000000 ; color:#ffffff; border: 2px solid #ffffff;" placeholder="Enter Designation *" value="" />
                             </div> 
                             <div class="form-group">
-                                <input type="text" name="txtName" class="form-control input-1" style="background-color:#000000 ; color:#ffffff; border: 2px solid #ffffff;" placeholder="Enter Phone Number *" value="" />
+                                <input type="text" name="txtPhone" class="form-control input-1" style="background-color:#000000 ; color:#ffffff; border: 2px solid #ffffff;" placeholder="Enter Phone Number *" value="" />
                             </div>
                         </div>
                         <div class=" col-md-10 col-12">
@@ -233,7 +233,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                         <h6 class="footer-head">QUICK LINKS</h6>
                         <a href="index.html"><p class="footer-link">Home</p></a>
                         <a href="film-publicity.html"><p class="footer-link">Film Publicity</p></a>
-                        <a href="film-marketing.html"><p class="footer-link">Film Marketing</p></a>
+                        <a href="film-marketing.php"><p class="footer-link">Film Marketing</p></a>
                         <a href="contact.html"><p class="footer-link">Contact Us</p></a>
                     </div>
                    
@@ -293,7 +293,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 {  
     
  
-var name=document.contact-form.txtName.value;  
+var name=document.getElementById("contact-form").txtName.value;  
   
 if (name==null || name==""){  
   alert("Name can't be blank");  
