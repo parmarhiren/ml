@@ -140,7 +140,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
         
-        <div class="container carousel-container">
+        <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-md-3 col-12 search-box-div">
                     <div class="form-group mr-2">

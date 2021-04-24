@@ -138,7 +138,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     </section>
     <!-- pagination -->
     <section class="feature" id="tabs">
-        <div class="container carousel-container">
+        <div class="container-fluid">
             <div class="row mb-3">
                 <div class="col-md-3 col-12 search-box-div">
                         <input type="text"  placeholder="Search.."  

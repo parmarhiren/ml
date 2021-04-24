@@ -258,14 +258,14 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
   #owl-carousel-marketing .owl-controls{
     position: absolute;
-    right:15px;
+    right:40px;
     top: -35px;
   }
   .carousel-container{
     max-width: 1200px;
   }
   #owl-carousel-marketing .owl-item{
-    width: 1200px !important;
+    /*width: 1200px !important;*/
   }
   .hero-text{
     font-size: 3rem;
@@ -985,7 +985,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 .search-box-div{
   margin-left: auto;
   margin-bottom: 1rem;
-  margin-right: 0.5rem;
+  margin-right: 2rem;
 }
 .quick-contact{
   color: #fff;
