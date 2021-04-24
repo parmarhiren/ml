@@ -692,7 +692,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
     top: 10px;
     right: 20px;
   }
-
+  .team-member{
+    width: 200px;
+    height: 250px;
+  }
+  .team-desc{
+    text-align: justify;
+    font-size: 12px;
+    /*padding-top: 1rem;*/
+  }
   .team-info .social-icon li {
     display: block;
   }
