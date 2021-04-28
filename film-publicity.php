@@ -33,7 +33,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
      <!-- ABOUT US -->
-    <section class="hero d-flex flex-column justify-content-center align-items-center bg-black" id="home">
+    <section class="hero justify-content-center align-items-center bg-black" id="home">
     <header>
     <!-- MENU BAR -->
         <div class="container">
@@ -120,7 +120,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
               <div class="item"><img class="mobile-hero-img" src="images/poster-design/1.png"> </div>
             </div>
             <div class="row pt-3">
-                <a href="#down"><img class="down-arrow" src= "images/downward_arrow.png"></a>
+                <a href="#down"><img class="down-arrow-1" src= "images/downward_arrow.png"></a>
             </div>
 
      </section>
@@ -131,7 +131,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
             <div class="row">
 
                 <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5  col-12">
-                    <h6 class="text-white"   >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
+                    <h6 class="text-white">Our successful marketing campaigns.</h6>
                 </div>
             </div>
             </div>
@@ -150,7 +150,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
                 <!-- Set up your HTML -->
             <div id="owl-carousel-marketing" style="text-align: -webkit-center;" class="owl-carousel owl-theme">
                 <?php
-                $images =["2002/Mr and mrs iyer. jpg.jpg","2005/Bluffmaster.jpg","2006/Ahista Ahista.jpg","2006/Being-Cyrus.jpg","2006/khosla_ka_ghosla.jpg","2006/Taxi no 9211.jpg","2007/bal ganesh.jpg","2007/Life In a Metro. jpg.jpg","2007/Manorama six feet under.jpg","2008/Dil Kabaddi.jpg","2008/Dubai return.jpg","2008/Ghatothkach. jpg.jpg","2008/Oye lucky! Lucky oye.jpg","2008/RANG RASIYA.jpg","2008/Slumdog Cororepati.jpg","2008/welcome to sajjanpur.jpg","2009/99 2.jpg","2009/99 3.jpg","2009/99.jpg","2009/aasma.jpg","2009/bolo_Raam.jpg","2009/ek.jpg","2009/little_zizou.jpg","2009/Love_khichdi.jpg","2009/quick gun murugun.jpg","2009/see-saw.jpg","2010/its_a_wonderful_afterlife.jpg","2010/Khichdi. jpg.jpg","2010/phas_gaye_re_obama.jpg","2010/Road, Movie.jpg","2010/striker.jpg","2010/tere bin laden.jpg","2010/The film emotional atyachar.jpg","2011/bal_hanuman_2.jpg","2011/jo hum chahein.jpg","2011/Loot.jpg","2011/love breakups zindagi.jpg","2011/michael. jpg.jpg","2011/Saheb biwi aur gangster 3.jpg","2011/Saheb biwi aur gangster.jpg","2011/sahi-dhandhe-galat-bande_poster.jpg","2011/Shagird. jpg.jpg","2011/soundtrack.jpg","2011/speedy_singhs.jpg","2011/that girl in yellow boots.jpg","2012/Bumbbo jpg.jpg","2012/Ek deewana tha.jpg","2012/jodi breakers.jpg","2012/london paris new york.jpg","2012/Rowdy rathore 1 .jpg","2012/Rowdy Rathore 2.jpg","2012/Shirin farhad.jpg","2013/bullett raja.jpg","2013/isaq.jpg","2013/i_me_aur_main.jpg","2013/johnday.jpg","2013/Mumbai mirror.jpg","2013/pranam-walekum-indian-movie-poster.jpg","2013/Rajjo. jpg.jpg","2013/Ram leela.jpg","2013/Saheb biwi aur gangster return.jpg","2013/sixteen-indian-movie-poster.jpg","2013/warning.jpg","2014/gulaab-gang.jpg","2014/Jal.jpg","2014/LAKSHMI. jpg.jpg","2014/Margarita with a straw. jpg.jpg","2014/Mary kom.jpg","2014/poster boyzz.jpg","2014/Revolver rani.jpg","2014/Samrat.jpg","2014/tamanchey.jpg","2014/total siyapaa.jpg","2015/ab-tak-chhappan-2.jpg","2015/aisa yeh jahaan.jpg","2015/Bajirao mastani.jpg","2015/bajirao mastani_1.jpg","2015/bajirao mastani_2.jpg","2015/Barkhaa.jpg","2015/carry-on-maratha-indian-movie-poster.jpg","2015/chitrafit.jpg","2015/dharam-sankat-main.jpg","2015/gabbar.jpg","2015/hawaizaada.jpg","2015/Main aur charles.jpg","2015/prem ratan dhan payo.jpg","2015/Pyar ka punchnama 2.jpg","2015/Rahasya.jpg","2015/Yahaan sabki lagi hai.jpg","2016/Phobia.jpg","2016/phuntroo.jpg","2016/poster girl.jpg","2016/santa banta.jpg","2016/sardaar-gabbar-singh.jpg","2016/vajandar.jpg","2017/30 x 40_Solo Vidya_BJ.jpg","2017/30x40_Body-Building_A4 size.jpg","2017/Aligarh-.jpg","2017/Banjo.jpg","2017/Dhanak jpg.jpg","2017/fugay.jpg","2017/kaccha limbu.jpg","2017/laal ishq.jpg","2017/lapachupi.jpg","2017/Maatr.jpg","2017/manjha.jpg","2017/oli ki suki.jpg","2017/Omerta.jpg","2017/Padmaavat 2.jpg","2017/padmaavat-3.jpg","2017/Padmaavat.jpg","2017/poster-boys.jpg","2017/ringan.jpg","2017/Simran.jpg","2017/sweetie weds nri.jpg","2018/baazaar.jpg","2018/begum-jaan.jpg","2018/bus stop.jpg","2018/chumbak.jpg","2018/ek sangaychay.jpg","2018/Famous.jpg","2018/Kaagar.jpg","2018/vodka-diaries.jpg","2019/hum-chaar.jpg","2019/jhalki__a_different_childhood_ver2_xlg.jpg","2019/miss u mister.jpg","2019/Narendra modi.jpg","2019/Setters.jpg","2019/The accidental prime minister.jpg","2019/The-Body.jpg","2020/Mi Vasantrao.jpg","2020/Shabaash mitu.jpg","2020/SPMB.jpg"];
+                $images =["2002/Mr and mrs iyer. jpg.jpg","2005/Bluffmaster.jpg","2006/Ahista Ahista.jpg","2006/Being-Cyrus.jpg","2006/khosla_ka_ghosla.jpg","2006/Taxi no 9211.jpg","2007/bal ganesh.jpg","2007/Life In a Metro. jpg.jpg","2007/Manorama six feet under.jpg","2008/Dil Kabaddi.jpg","2008/Dubai return.jpg","2008/Ghatothkach. jpg.jpg","2008/Oye lucky! Lucky oye.jpg","2008/RANG RASIYA.jpg","2008/Slumdog Cororepati.jpg","2008/welcome to sajjanpur.jpg","2009/99 2.jpg","2009/99 3.jpg","2009/99.jpg","2009/aasma.jpg","2009/bolo_Raam.jpg","2009/ek.jpg","2009/little_zizou.jpg","2009/Love_khichdi.jpg","2009/quick gun murugun.jpg","2009/see-saw.jpg","2010/its_a_wonderful_afterlife.jpg","2010/Khichdi. jpg.jpg","2010/phas_gaye_re_obama.jpg","2010/Road, Movie.jpg","2010/striker.jpg","2010/tere bin laden.jpg","2010/The film emotional atyachar.jpg","2011/bal_hanuman_2.jpg","2011/jo hum chahein.jpg","2011/Loot.jpg","2011/love breakups zindagi.jpg","2011/michael. jpg.jpg","2011/Saheb biwi aur gangster 3.jpg","2011/Saheb biwi aur gangster.jpg","2011/sahi-dhandhe-galat-bande_poster.jpg","2011/Shagird. jpg.jpg","2011/soundtrack.jpg","2011/speedy_singhs.jpg","2011/that girl in yellow boots.jpg","2012/Bumbbo jpg.jpg","2012/Ek deewana tha.jpg","2012/jodi breakers.jpg","2012/london paris new york.jpg","2012/Rowdy rathore 1 .jpg","2012/Rowdy Rathore 2.jpg","2012/Shirin farhad.jpg","2013/bullett raja.jpg","2013/isaq.jpg","2013/i_me_aur_main.jpg","2013/johnday.jpg","2013/Mumbai mirror.jpg","2013/pranam-walekum-indian-movie-poster.jpg","2013/Rajjo. jpg.jpg","2013/Ram leela.jpg","2013/Saheb biwi aur gangster return.jpg","2013/sixteen-indian-movie-poster.jpg","2013/warning.jpg","2014/gulaab-gang.jpg","2014/Jal.jpg","2014/LAKSHMI. jpg.jpg","2014/Margarita with a straw. jpg.jpg","2014/Mary kom.jpg","2014/poster boyzz.jpg","2014/Revolver rani.jpg","2014/Samrat.jpg","2014/tamanchey.jpg","2014/total siyapaa.jpg","2015/ab-tak-chhappan-2.jpg","2015/aisa yeh jahaan.jpg","2015/Bajirao mastani.jpg","2015/bajirao mastani_1.jpg","2015/bajirao mastani_2.jpg","2015/Barkhaa.jpg","2015/carry-on-maratha-indian-movie-poster.jpg","2015/chitrafit.jpg","2015/dharam-sankat-main.jpg","2015/gabbar.jpg","2015/hawaizaada.jpg","2015/Main aur charles.jpg","2015/prem ratan dhan payo.jpg","2015/Pyar ka punchnama 2.jpg","2015/Rahasya.jpg","2015/Yahaan sabki lagi hai.jpg","2016/Phobia.jpg","2016/phuntroo.jpg","2016/poster girl.jpg","2016/santa banta.jpg","2016/sardaar-gabbar-singh.jpg","2016/vajandar.jpg","2017/30 x 40_Solo Vidya_BJ.jpg","2017/30-x-40_Solo-Vidya_BJ.jpg","2017/30x40_Body-Building_A4 size.jpg","2017/Aligarh-.jpg","2017/Banjo.jpg","2017/Dhanak jpg.jpg","2017/fugay.jpg","2017/kaccha limbu.jpg","2017/laal ishq.jpg","2017/laal-ishq.jpg","2017/lapachupi.jpg","2017/Maatr.jpg","2017/manjha.jpg","2017/oli ki suki.jpg","2017/Omerta.jpg","2017/Padmaavat 2.jpg","2017/padmaavat-3.jpg","2017/Padmaavat.jpg","2017/poster-boys.jpg","2017/ringan.jpg","2017/Simran.jpg","2017/sweetie weds nri.jpg","2017/sweetie-weds-nri.jpg","2018/baazaar.jpg","2018/begum-jaan.jpg","2018/bus stop.jpg","2018/chumbak.jpg","2018/ek sangaychay.jpg","2018/Famous.jpg","2018/Kaagar.jpg","2018/vodka-diaries.jpg","2019/hum-chaar.jpg","2019/jhalki__a_different_childhood_ver2_xlg.jpg","2019/miss u mister.jpg","2019/Narendra modi.jpg","2019/Setters.jpg","2019/The accidental prime minister.jpg","2019/The-Body.jpg",
+                "2020/scam.jpg","2020/Mi Vasantrao.jpg","2020/Shabaash mitu.jpg","2020/SPMB.jpg","2021/30-x-40_Jump-Poster_Bolo-Hau.jpg","2021/30x40_Poster-01_Dukaan.jpg","2021/30x40_Zadu-Poster_MCM.jpg","2021/thursay_fridays.jpg"];
                 $totalImages = count($images);
                 $latestImages = array_reverse($images);
                 $pages = ceil($totalImages/20);
@@ -202,7 +203,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
                         <h6 class="footer-head">GET IN TOUCH</h6>
                         <div class="row">
                             <img class="icon" src="images/pin.png">
-                            <a href="https://goo.gl/maps/nwMszGw3qHe6QK6e8"><p class="footer-para">404,Vastu Prestige,<br>Above Tanishq Showroom,<br>New Link Road,Andheri West,<br>Mumbai 400053</p></a>
+                            <a href="https://goo.gl/maps/nwMszGw3qHe6QK6e8"><p class="footer-para">404,Vastu Prestige,<br>Above Tanishq Showroom,<br>New Link Road, Andheri West,<br>Mumbai 400053</p></a>
                         </div>
                         <div class="row">
                             <img class="icon" src="images/phone-call.png">
@@ -226,9 +227,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
                         <h6 class="footer-head">POLICIES</h6>
                         <a href=""><p class="footer-link">Privacy Policy</p></a>
                         <h6 class="footer-head">IN THE NEWS</h6>
-                        <a href=""><p class="footer-link">Dummy Text</p></a>
-                        <a href=""><p class="footer-link">Dummy Text</p></a>
-                        <a href=""><p class="footer-link">Dummy Text</p></a>
+<a target="_blank" href="https://www.republicworld.com/entertainment-news/bollywood-news/monika-panwar-shares-first-look-from-her-next-film-dukaan-calls-it-a-precious-project.html"><p class="footer-link">DUKAAN</p></a>
+<a target="_blank" href="https://mumbaimirror.indiatimes.com/entertainment/bollywood/shabaash-mithu-first-poster-taapsee-pannu-stuns-as-mithali-raj-biopic-to-release-in-february-2021/articleshow/73726890.cms"><p class="footer-link">SHABASH MITHU</p></a>
+<a target="_blank" href="https://marathimovieworld.com/news/ustaad-zakir-hussain-unveils-teaser-poster-of-mee-vasantrao.php"><p class="footer-link">Mi VASANTRAO</p></a>
                     </div>
                     <div class="ml-auto col-lg-1 col-md-1 col-12"></div>
                     <!-- <div class="ml-auto col-lg-2 col-md-2 col-12"></div> -->
